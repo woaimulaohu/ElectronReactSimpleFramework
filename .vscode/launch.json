@@ -1,13 +1,20 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "Debug Main Process",
-        "type": "node",
-        "request": "launch",
-        "cwd": "${workspaceRoot}",
-        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd",
-        "program": "${workspaceRoot}/main.js"
-      }
-    ]
-  }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "electron debug",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd",
+      "program": "${workspaceRoot}/main.js"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "react debug",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceRoot}"
+    }
+  ]
+}
