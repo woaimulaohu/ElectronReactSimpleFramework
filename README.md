@@ -1,9 +1,5 @@
-<!--
- * @Author: your name
- * @Date: 2020-03-26 11:26:37
- * @LastEditTime: 2020-03-26 15:10:40
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \ElectronReactSimpleFramework\README.md
- -->
+master分支只整合了electron和react</br>
+antdesign分支在master基础上加入antdesign组件</br>
+
+ 参考文章</br>
 https://zhuanlan.zhihu.com/p/29164782
