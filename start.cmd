@@ -12,3 +12,4 @@ start cmd /c "npm run start"
 
 REM 运行electron
 REM start cmd /c "npm run electron-start"
+

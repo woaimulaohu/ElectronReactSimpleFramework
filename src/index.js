@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import LoginPage from './LoginPage';
 import * as serviceWorker from './serviceWorker';
+import "./components/UI/admin-lte/plugins/fontawesome-free/css/all.min.css";
+import "./components/UI/admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css";
+import "./components/UI/admin-lte/dist/css/adminlte.min.css";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LoginPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
