@@ -7,6 +7,7 @@ REM start /wait cmd /c "npm install"
 REM 构建electron和react
 REM start "build" cmd /c "npm run build"
 
+REM start /wait  cmd /c "npm run build"
 REM 运行react
 start cmd /c "npm run start"
 
